@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment-1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1>Assignment-1</h1>
+    </center>
+    <form class="form" id="checkbox">
+        <h2>Please select a Year </h2>
+        <div class="inputGroup">
+            <input id="option1" name="option1" type="checkbox" onclick="myFunction1()" />
+            <label for=" option1">2021</label>
+        </div>
+        <div class="inputGroup">
+            <input id="option2" name="option2" type="checkbox" onclick="myFunction2()" />
+            <label for="option2">2022</label>
+        </div>
+        <div class="inputGroup">
+            <input id="option3" name="option3" type="checkbox" onclick="myFunction3()" />
+            <label for=" option3">2023</label>
+        </div>
+    </form>
+    <form id="2021" style="display:none" class="form">
+        <p>Select a month from drop-down list for year 2021:</p>
+        <form action="">
+            <label for="months2021"></label>
+            <select id="month21" name="month">
+                <option value="1">Jan - Apr</option>
+                <option value="2">May - Aug</option>
+                <option value="3">Sep - Dec</option>
+                <option value="4" selected="true"></option>
+            </select>
+        </form>
+    </form>
+    <form id="2022" style="display:none" class="form">
+        <p>Select a month from drop-down list for year 2022:</p>
+        <form action="">
+            <label for="months2022"></label>
+            <select id="month22" name="month">
+                <option value="1">Jan - Apr</option>
+                <option value="2">May - Aug</option>
+                <option value="3">Sep - Dec</option>
+                <option value="4" selected="true"></option>
+            </select>
+        </form>
+        <form id="2023" style="display:none" class="form">
+            <p>Select a month from drop-down list for year 2023:</p>
+            <form action="">
+                <label for="months2023"></label>
+                <select id="month23" name="month">
+                    <option value="1">Jan - Apr</option>
+                    <option value="2">May - Aug</option>
+                    <option value="3">Sep - Dec</option>
+                    <option value="4" selected="true"></option>
+                </select>
+            </form>
+            <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+            <form action="" id="usrform2021" style="display:none" class="form">
+                <p>Enter random value in any of the field for year 2021</p>
+                Input 1: <input type="number" name="val1" value="0" id="a1"><br>
+                Input 2: <input type="number" name="val2" value="0" id="a2"><br>
+                Input 3: <input type="number" name="val3" value="0" id="a3"><br>
+                Input 4: <input type="number" name="val4" value="0" id="a4"><br>
+                <input type="submit" value="Calculate" id="s1">
+                <input type="reset" value="Reset" id="r1" />
+            </form>
+            <form action="" id="usrform2022" style="display:none" class="form">
+                <p>Enter random value in any of the field for year 2022</p>
+                Input 1: <input type="number" name="val1" value="0" id="b1"><br>
+                Input 2: <input type="number" name="val2" value="0" id="b2"><br>
+                Input 3: <input type="number" name="val3" value="0" id="b3"><br>
+                Input 4: <input type="number" name="val4" value="0" id="b4"><br>
+                <input type="submit" value="Calculate" id="s2">
+                <input type="reset" value="Reset" id="r2" />
+            </form>
+            <form action="" id="usrform2023" style="display:none" class="form">
+                <p>Enter random value in any of the field for year 2023</p>
+                Input 1: <input type="number" name="val1" value="0" id="c1"><br>
+                Input 2: <input type="number" name="val2" value="0" id="c2"><br>
+                Input 3: <input type="number" name="val3" value="0" id="c3"><br>
+                Input 4: <input type="number" name="val4" value="0" id="c4"><br>
+                <input type="submit" value="Calculate" id="s3">
+                <input type="reset" value="Reset" id="r3" />
+            </form>
+            <script src="script.js"></script>
+</body>
+
+</html>
